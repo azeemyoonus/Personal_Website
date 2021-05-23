@@ -1,0 +1,67 @@
+html{
+  scroll-behavior: smooth;
+}
+.photo{
+  height: 22em;
+  width: 22em;
+  border-radius:300px;
+}
+
+.middle{
+  text-align: center;
+}
+a:link {
+  color:gray;
+}
+a:visited {
+  color: gray;
+}
+a:active {
+  color: gray;
+}
+p{
+  text-decoration: rgb(228, 228, 151);
+}
+p.underline
+{
+    position: relative;
+}
+
+p.underline:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(236, 162, 88);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+p.underline:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+
+p.underline_left
+{
+    position: relative;
+}
+
+p.underline_left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(236, 162, 88);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+p.underline_left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
