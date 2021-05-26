@@ -8,6 +8,9 @@ html{
 .project{
   border-radius: 15px 15px 15px 15px;
 }
+.cardcrop{
+  border-radius: 0px 0px 15px 15px;
+}
 .photo{
   height: 22em;
   width: 22em;
