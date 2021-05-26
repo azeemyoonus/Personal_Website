@@ -22,6 +22,10 @@ a:active {
   color: gray;
 }
 
+h2, h4, p, h3, h6, body,a  {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
 
 .underline
 {

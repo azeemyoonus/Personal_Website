@@ -3,7 +3,6 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
-
   <!-- add icon link -->
   <link rel="icon" href="profile_photo.jpg" type="image/x-icon">
 
@@ -19,20 +18,20 @@
   <!---- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.j"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 
-<body class='bg-light '>
+<body class='bg-dark '>
   <!--header section-->
-  <header id="home">
-    <div style="z-index: 1; position: fixed;" class=" container-fluid bg-light">
+  <header class='bg-white' id="home">
+    <div style="z-index: 1; position: fixed;" class=" container-fluid shadow-sm   bg-white">
       <div class="row clearfix ">
 
         <div class="">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="underline text-secondary  navbar-brand" href="#">Azeem Yoonus</a>
+          <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a style="color: black;" class="underline   navbar-brand" href="#">Azeem Yoonus</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -41,13 +40,13 @@
             <div class=" text-right collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="ml-auto nav  navbar-nav  ">
                 <li class="nav-item   ">
-                  <a class="ml-1 nav-link  underline " href="#about">About</a>
+                  <a style="color: black; font-size: medium;"  class="ml-1 nav-link  underline under  " href="#about">About</a>
                 </li>
                 <li class=" nav-item">
-                  <a class="ml-1 nav-link underline " href="#project">Projects</a>
+                  <a style="color: black; font-size: medium;" class="ml-1 nav-link underline under " href="#project">Projects</a>
                 </li>
                 <li class=" nav-item">
-                  <a class="ml-1 nav-link underline  " href="#contact">Contact</a>
+                  <a style="color: black; font-size: medium;" class="ml-1 nav-link underline under " href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -59,20 +58,16 @@
   </header>
   <!--end of header-->
   <!--profile photo section-->
-  <section class="bg-mute container-fluid" style="padding-top: 4em;padding-bottom:5em;">
+  <section class="bg-light container-fluid" style="padding-top: 4em;padding-bottom:5em;">
     <div class="p-5">
       <div class="row">
-        <div class="col-md-5 col-lg-5  text-center">
-          <img class="photo img-fluid " src="profile_photo.jpg" alt="">
+        <div class="  col-md-12   text-center">
+          <img id='image' class="photo img-fluid " src="profile_photo.jpg" alt="">
         </div>
-        <div class=" p-3 mt-4 col-12  col-md-7 col-lg-7 ">
-          <div class="col-lg-7 my-auto col-md-7 text-left  mx-auto ">
-            <h4 style='display: inline;' class="pt-5 text-secondary ">Hello There, I am </h4>
-            <h4 style='display: inline;' class=' text-info '>Muhammed Azeem Yoonus </h4>
-            <h4 style='display: inline;' class="text-secondary ">a
-              computer science student (2020-2024) in Amrita Vishyavidyapeedam, Amritapuri. I am passionate about
-              building excellent software that improves the lives of those around me.
-            </h4>
+        <div  class="col-12 mx-auto  col-md-12 ">
+          <div class="text-center pt-3 ">
+            <h2 style='display: inline; color: #343a40;' class="pt-5  font-weight-bolder ">Hello There, I am Muhammed Azeem Yoonus </h2>
+            <h4 style="font-weight: 400;" class='pt-1  text-info '>Web Developer</h4>
           </div>
         </div>
       </div>
@@ -80,26 +75,26 @@
   </section>
   <!--end of profile photo section-->
   <!--about section-->
-  <section id='about' class="jumbotron bg-light " style="background-color:'';  padding-top:1em;padding-bottom:5em;">
-    <p class="col-md-6 col-6  text-info ml-1" style='display: inline;margin-top: 0.8em;font-size: 2.5em;'>
+  <section id='about' class="jumbotron bg-dark rounded " style="background-color:'';  padding-top:1em;padding-bottom:5em;">
+    <p class="text-info col-md-6 col-6  ml-1" style='color: black; display: inline;margin-top: 0.8em;font-size: 2.5em;'>
       About Me </p>
-    <hr class=' pt-2 text-dark'>
+    <hr  class='text-info  pt-2 '>
     <div class="p-2">
 
-      <div class=' '>
+      <div class='bg-dark '>
 
         <div class="bg-mute mx-auto mt-3">
           <!--main card-->
-          <div class=" shadow-sm  rounded card ">
+          <div class=" shadow bg-dark  rounded card ">
 
             <!--personal-->
-            <div class="m-3 border-muted bg-muted ">
-              <div class="   ">
-                <h3 style="color: lightblue; text-decoration-line: underline;" class="">Personal Info</h3>
+            <div class="m-3 border-muted bg-dark ">
+              <div class="  bg-dark ">
+                <h3  class="text-info ">Personal Info</h3>
               </div>
-              <div class="col-12 col-md-12 mb-2  card-body row">
-                <div class=" container col-md-7  my-3  col-lg-7  rounded   col-12 ">
-                  <h6 style="display: inline;" class=" card-text  text-secondary ">I am Muhammed Azeem Yoonus, a student
+              <div class="col-12 bg-dark col-md-12 mb-2  card-body row">
+                <div class=" container col-md-7 bg-dark my-3  col-lg-7  rounded   col-12 ">
+                  <h6 style="display: inline;" class=" card-text  text-light ">I am Muhammed Azeem Yoonus, a student
                     at Amrita Vishyavidyapeedam, Amritapuri. I was always fascinated by the technicalities with which
                     websites were designed. So started my journey by making a website for myself. Every day I push
                     myself to learn something new, whether that be about web designing, learning new frameworks, or
@@ -112,13 +107,13 @@
                   <div class="p-2 ">
                     <div class="row">
                       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                        style="color:teal ;" class="  col-md-2 col-lg-2 p-0 m-0  col-2  bi bi-globe"
+                        class=" text-light col-md-2 col-lg-2 p-0 m-0  col-2  bi bi-globe"
                         viewBox="0 0 16 16">
                         <path
                           d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
                       </svg>
                       <h6 style=" display: inline; float: left;"
-                        class='text-right  text-dark  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
+                        class='text-right  text-light  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
                         05-12-2002</h6>
                     </div>
 
@@ -127,13 +122,13 @@
                   <div class="p-2 ">
                     <div class="row">
                       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                        style="color:teal ;" class=" col-md-2 col-lg-2 p-0 m-0  col-2  bi bi-person"
+                         class="text-light col-md-2 col-lg-2 p-0 m-0  col-2  bi bi-person"
                         viewBox="0 0 16 16">
                         <path
                           d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                       </svg>
-                      <h6 style="display: inline; float: left;" style="color:teal ;"
-                        class='text-right    rounded col-md-9 col-10 col-lg-9 font-weight-light '>
+                      <h6 style="display: inline; float: left;" 
+                        class='text-right  text-light  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
                         18</h6>
                     </div>
 
@@ -143,7 +138,7 @@
                   <div class="p-2 ">
                     <div class="row">
                       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                        style="color:teal ;" class=" col-md-2 col-lg-2 p-0 m-0  col-2 bi bi-translate"
+                         class="text-light col-md-2 col-lg-2 p-0 m-0  col-2 bi bi-translate"
                         viewBox="0 0 16 16">
                         <path
                           d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z" />
@@ -151,7 +146,7 @@
                           d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z" />
                       </svg>
                       <h6 style="display: inline; float: left;"
-                        class='text-right  text-dark  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
+                        class='text-right  text-white  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
                         English | Malayalam</h6>
                     </div>
 
@@ -159,14 +154,14 @@
                   <div class="p-2 ">
                     <div class="row">
                       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                        style="color:teal ;" class="   col-md-2 col-lg-2 p-0 m-0  col-2  bi bi-geo-alt"
+                         class="  text-light col-md-2 col-lg-2 p-0 m-0  col-2  bi bi-geo-alt"
                         viewBox="0 0 16 16">
                         <path
                           d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
                         <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                       </svg>
                       <h6 style="display: inline; float: left;;"
-                        class='text-right  text-dark  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
+                        class='text-right  text-light  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
                         India</h6>
                     </div>
 
@@ -183,55 +178,55 @@
             <!--skill-->
             <div class=" m-3 mt-5 border-dark   ">
               <div class="   ">
-                <h3 style="color: lightblue; text-decoration-line: underline;" class="">Technical Skills</h3>
+                <h3  class="text-info">Technical Skills</h3>
               </div>
               <div class="col-12 col-md-12 card-body mx-auto row">
 
                 <div class="p-3 col-md-6">
-                  <h6>HTML</h6>
-                  <div class="bg-light border rounded  border-dark  progress">
-                    <div class=" bg-dark text-info  font-weight-bolder progress-bar" role="progressbar"
+                  <h6 class='text-light' >HTML</h6>
+                  <div class="bg-dark border rounded  border-secondary  progress">
+                    <div class=" bg-white text-dark  font-weight-bolder progress-bar" role="progressbar"
                       style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
                   </div>
                 </div>
 
                 <div class="p-3 col-md-6">
-                  <h6>NodeJs</h6>
-                  <div class="bg-light border rounded  border-dark  progress">
+                  <h6 class="text-light" >NodeJs</h6>
+                  <div class="bg-dark border rounded  border-secondary  progress">
 
-                    <div class=" bg-dark text-info font-weight-bolder progress-bar" role="progressbar"
+                    <div class=" bg-white text-dark font-weight-bolder progress-bar" role="progressbar"
                       style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
                   </div>
                 </div>
 
                 <div class="p-3 col-md-6">
-                  <h6>React JS</h6>
-                  <div class="bg-light border rounded  border-dark  progress">
-                    <div class=" bg-dark font-weight-bolder text-info progress-bar" role="progressbar"
+                  <h6 class="text-light" >React JS</h6>
+                  <div class="bg-dark border rounded  border-secondary progress">
+                    <div class=" bg-white font-weight-bolder text-dark progress-bar" role="progressbar"
                       style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
                   </div>
                 </div>
 
                 <div class="p-3 col-md-6">
-                  <h6>CSS</h6>
-                  <div class="bg-light border rounded  border-dark  progress">
-                    <div class=" bg-dark text-info font-weight-bolder progress-bar" role="progressbar"
+                  <h6 class="text-light" >CSS</h6>
+                  <div class="bg-dark border rounded  border-secondary  progress">
+                    <div class=" bg-white text-dark font-weight-bolder progress-bar" role="progressbar"
                       style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
                   </div>
                 </div>
 
                 <div class="p-3 col-md-6">
-                  <h6>MongoDB</h6>
-                  <div class="bg-light border rounded  border-dark  progress">
-                    <div class=" bg-dark text-info font-weight-bolder  progress-bar" role="progressbar"
+                  <h6 class="text-light" >MongoDB</h6>
+                  <div class="bg-dark border rounded  border-secondary  progress">
+                    <div class=" bg-white text-dark font-weight-bolder  progress-bar" role="progressbar"
                       style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
                   </div>
                 </div>
 
                 <div class="p-3 col-md-6">
-                  <h6>Django</h6>
-                  <div class="bg-light border rounded  border-dark  progress">
-                    <div class=" bg-dark  text-info font-weight-bolder progress-bar" role="progressbar"
+                  <h6 class="text-light" >Django</h6>
+                  <div class="bg-dark border rounded  border-secondary  progress">
+                    <div class=" bg-white  text-dark font-weight-bolder progress-bar" role="progressbar"
                       style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
                   </div>
                 </div>
@@ -243,10 +238,10 @@
             <hr class='text-secondary'>
 
             <!--interests-->
-            <div class=" m-3 mt-5  bg-muted    ">
+            <div class=" m-3 mt-5  bg-dark    ">
 
               <div class="   ">
-                <h3 style="color: lightblue; text-decoration-line: underline;" class="">Interests</h3>
+                <h3  class="text-info">Interests</h3>
               </div>
 
               <div class="col-12 col-md-12 card-body  mx-auto row">
@@ -254,19 +249,19 @@
                   <div class="card-body ">
                     <div class="row">
                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                        class=" text-info   col-md-3 col-lg-2 p-0 m-0  col-2  bi bi-file-earmark-code"
+                        class=" text-info    col-md-3 col-lg-2 p-0 m-0  col-2  bi bi-file-earmark-code"
                         viewBox="0 0 16 16" style="display: inline; float: left; ">
                         <path
                           d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z" />
                         <path
                           d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708z" />
                       </svg>
-                      <h5 style="display: inline; float: left; color: teal;"
-                        class='progress-bar bg-light text-left border border-dark rounded col-md-9 col-10 col-lg-9 font-weight-bolder'>
+                      <h5 style="display: inline; float: left; ;"
+                        class=' text-info bg-dark text-left rounded col-md-9 col-10 col-lg-9 font-weight-light'>
                         Coding</h5>
                     </div>
                     <div class="pt-2 row">
-                      <h6 style="" class="text-left  text-dark">Computer coders are often self-taught and learn by
+                      <h6  class="text-left  text-light">Computer coders are often self-taught and learn by
                         making mistakes. The ability to develop creative solutions independently can be helpful for
                         anyone in the field. </h6>
                     </div>
@@ -287,12 +282,12 @@
                         <path fill-rule="evenodd"
                           d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z" />
                       </svg>
-                      <h5 style="display: inline; float: left; color: teal;"
-                        class='progress-bar bg-light text-left border border-dark rounded col-md-9 col-10 col-lg-9 font-weight-bolder'>
+                      <h5 style="display: inline; float: left;"
+                        class=' bg-dark text-info text-left rounded col-md-9 col-10 col-lg-9 font-weight-light'>
                         Traveling</h5>
                     </div>
                     <div class="pt-2 row">
-                      <h6 style="" class="text-left  text-dark">Traveling can prove you’re not afraid of stepping
+                      <h6  class="text-left  text-light">Traveling can prove you’re not afraid of stepping
                         outside your comfort zone and learning new things. And, flexibility and adaptability are among
                         the most important workplace personal traits.</h6>
                     </div>
@@ -309,12 +304,12 @@
                         <path
                           d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z" />
                       </svg>
-                      <h5 style="display: inline; float: left; color: teal;"
-                        class='progress-bar bg-light text-left border border-dark rounded col-md-9 col-10 col-lg-9 font-weight-bolder'>
+                      <h5 style="display: inline; float: left; "
+                        class='text-info bg-dark text-info  rounded col-md-9 col-10 col-lg-9 font-weight-light'>
                         Gardening</h5>
                     </div>
                     <div class="pt-2 row">
-                      <h6 style="" class="text-left  text-dark">Gardening may be a fun and relaxing way to get in touch
+                      <h6  class="text-left  text-light">Gardening may be a fun and relaxing way to get in touch
                         with nature also it has plenty of health benefits. Gardening is an activity that’s good for both
                         the mind and body and can be enjoyed by people of all ages.
                       </h6>
@@ -330,12 +325,12 @@
                         <path
                           d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z" />
                       </svg>
-                      <h5 style="display: inline; float: left; color: teal;"
-                        class='progress-bar bg-light text-left border border-dark rounded col-md-9 col-10 col-lg-9 font-weight-bolder'>
+                      <h5 style="display: inline; float: left; "
+                        class=' bg-dark text-info text-left  rounded col-md-9 col-10 col-lg-9 font-weight-light'>
                         Creative</h5>
                     </div>
                     <div class="pt-2 row">
-                      <h6 style="" class="text-left  text-dark">Hundreds of jobs require creative skills. Imagination
+                      <h6  class="text-left  text-light ">Hundreds of jobs require creative skills. Imagination
                         and inventiveness are also parts of critical-thinking skills.</h6>
                     </div>
                   </div>
@@ -351,12 +346,12 @@
                         <path
                           d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
                       </svg>
-                      <h5 style="display: inline; float: left; color: teal;"
-                        class='progress-bar bg-light text-left border border-dark rounded col-md-9 col-10 col-lg-9 font-weight-bolder'>
+                      <h5 style="display: inline; float: left;"
+                        class=' bg-dark text-info text-left  rounded col-md-9 col-10 col-lg-9 font-weight-light'>
                         Photograpy</h5>
                     </div>
                     <div class="pt-2 row">
-                      <h6 style="" class="text-left  text-dark">Photography is so much more than just taking pictures.
+                      <h6  class="text-left  text-light">Photography is so much more than just taking pictures.
                         It develops conceptual skills and technical expertise but also teaches how to collaborate with
                         others.</h6>
                     </div>
@@ -372,12 +367,12 @@
                         <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
                         <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z" />
                       </svg>
-                      <h5 style="display: inline; float: left; color: teal;"
-                        class='progress-bar bg-light text-left border border-dark rounded col-md-9 col-10 col-lg-9 font-weight-bolder'>
+                      <h5 style="display: inline; float: left; "
+                        class=' bg-dark text-info text-left  rounded col-md-9 col-10 col-lg-9 font-weight-bolder'>
                         Music</h5>
                     </div>
                     <div class="pt-2 row">
-                      <h6 style="" class="text-left  text-dark">Listening to music is good for the brain. It also helps
+                      <h6 class="text-left  text-light">Listening to music is good for the brain. It also helps
                         to improve your mental performance, memory power also makes you concentrate better.
                       </h6>
                     </div>
@@ -398,9 +393,9 @@
   </section>
   <!--project section-->
   <section id='project' class="jumbotron bg-light " style="padding-top:1em;padding-bottom:8em;">
-    <p class="col-md-6 col-6  text-info ml-1" style='display: inline;margin-top: 0.8em;font-size: 2.5em;'>
+    <p class="col-md-6 col-6 ml-1" style='display: inline;margin-top: 0.8em;font-size: 2.5em; color: #343a40;'>
       Projects </p>
-    <hr class=' pt-2  text-dark'>
+    <hr style="color: #343a40;" class=' pt-2 '>
     <div class="p-0">
       <div class=' '>
 
@@ -450,7 +445,7 @@
   <section id='contact' class="jumbotron bg-dark container-fluid" style="padding-top:1em;padding-bottom:8em;">
     <p class="col-md-6 col-6  text-info ml-1" style='display: inline;margin-top: 0.8em;font-size: 2.5em;'>
       Contact Me </p>
-    <hr class=' pt-2 text-secondary '>
+    <hr class=' pt-2 text-info  '>
     <div class="p-2">
       <div class=' '>
 
@@ -465,8 +460,8 @@
               <div class="col-12 col-md-12 card-body row">
 
                 <div class="  container col-md-5 mt-3   rounded   col-12 card-text ">
-                  <h3 class="card-title  text-muted font-weight-bolder" style="display: inline;">Dont be Shy !</h3><br>
-                  <p class="card-text pt-2 font-weight-bolder text-muted ">
+                  <h3 class="card-title  text-muted font-weight-light" style="display: inline;">Dont be Shy !</h3><br>
+                  <p class="card-text pt-2 font-weight-light text-muted ">
                     Feel free to go in touch with me. I am always open to discussing new projects, creative ideas, or
                     opportunities to be part of your vision.
                   </p>
@@ -482,7 +477,7 @@
                           <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                         </svg>
                         <h6 style="display: inline; float: left;;"
-                          class=' bg-dark text-left  text-light  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
+                          class=' bg-dark text-left  text-muted  rounded col-md-9 col-10 col-lg-9 font-weight-light '>
                           Kannur, Kerala, India</h6>
                       </div>
 
@@ -497,7 +492,7 @@
                             d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
                         </svg>
                         <h6 style="display: inline; float: left; "
-                          class='text-left bg-dark  text-light rounded col-md-9 col-10 col-lg-9 font-weight-light'>
+                          class='text-left bg-dark  text-muted rounded col-md-9 col-10 col-lg-9 font-weight-light'>
                           azeemyoonus4@gmail.com</h6>
                       </div>
 
@@ -512,7 +507,7 @@
                             d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
                         </svg>
                         <h6 style="display: inline; float: left;"
-                          class=' text-left text-light rounded col-md-9 col-10 col-lg-9 font-weight-light'>
+                          class=' text-left text-muted rounded col-md-9 col-10 col-lg-9 font-weight-light'>
                           +91 8156808222</h6>
                       </div>
 
@@ -619,10 +614,10 @@
                       </div>
                       <div class="form-group row ">
                         <div class="text-right  col-sm-7 col-5  col-md-5 col-lg-7">
-                          <button type="reset" class="btn btn-info text-light">Reset</button>
+                          <button type="reset" class="btn btn-dark border-secondary text-light">Reset</button>
                         </div>
                         <div class=" text-left col-sm-5  col-5 col-md-5 col-lg-5">
-                          <button type="submit" class="btn btn-info text-light">Submit</button>
+                          <button type="submit" class="btn border-secondary btn-dark  text-light">Submit</button>
                         </div>
                       </div>
                     </form>
@@ -642,7 +637,7 @@
     </div>
   </section>
   <!--footer section-->
-  <footer class="bg-mute text-bottom bg-light    text-center " style="padding-top:0em;">
+  <footer class="bg-dark text-bottom     text-center " style="padding-top:0em;">
     <hr class='text-secondary'>
 
 
@@ -650,23 +645,23 @@
     <div class="pt-0 container text-center">
       <div class="pt-0">
         <a class="pb-0 " href="https://github.com/azeemyoonus" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
-            width="14" height="14" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            width="14" height="14" fill="currentColor" class="text-light bi bi-github" viewBox="0 0 16 16">
             <path
               d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
           </svg></a>
         <a class="pb-2 pl-2" href='https://www.linkedin.com/in/azeem-yoonus-6a846a210/' target="_blank"><svg
-            xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-linkedin"
+            xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="text-light  bi bi-linkedin"
             viewBox="0 0 16 16">
             <path
               d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
           </svg></a>
         <a class="pb-0 pl-2" href='mailto:azeemyoonus4@gmail.com'><svg xmlns="http://www.w3.org/2000/svg" width="14"
-            height="14" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            height="14" fill="currentColor" class="text-light  bi bi-envelope-fill" viewBox="0 0 16 16">
             <path
               d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
           </svg></a>
         <a class="pb-0 pl-2" href='#'><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
-            class="bi bi-facebook" viewBox="0 0 16 16">
+            class="text-light  bi bi-facebook" viewBox="0 0 16 16">
             <path
               d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
           </svg></a>
@@ -698,6 +693,16 @@
       $(this).scrollTop(0);
     });
   </script>
+  <!-- <script>
+ $(document).ready(function(){
+
+  $(".under").mousedown(function(){
+    alert("You clicked !");
+  });
+});
+  </script> -->
+
+
 
 
 </body>
